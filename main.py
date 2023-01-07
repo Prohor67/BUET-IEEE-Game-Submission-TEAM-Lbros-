@@ -10,7 +10,7 @@ pygame.init()
 SCREEN = pygame.display.set_mode((300, 300))
 pygame.display.set_caption("Menu")
 
-BG = pygame.image.load("F:\WORK\PYTHON\Project Game\Project/Background.png")
+BG = pygame.image.load("Background.png")
 
 
 screen_height = 300
@@ -129,7 +129,7 @@ def draw_game_over(winner):
 
 
 def get_font(size):  # Returns Press-Start-2P in the desired size
-    return pygame.font.Font("F:\WORK\PYTHON\Project Game\Project/font.ttf", size)
+    return pygame.font.Font("font.ttf", size)
 
 
 
